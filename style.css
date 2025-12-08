@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: #1E1A16;           
+    color: #E9DFD2;                
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+}
+.parent {
+    text-align: left;
+    padding-left: 110px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
+    gap: 40px;
+}
+
+.profile-pic {
+    width: 240px;
+    height: 240px ;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid #6B5C52;
+}
+
+.intro-text h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    color: #C49A6C;                
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #C9B9A5;          
+}
+
+.quote {
+    margin-top: 18px;
+    font-size: 1.1rem;
+    color: #C49A6C;                
+}
+
+.projects {
+    padding: 50px 10%;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #C49A6C;                
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.item {
+    text-decoration: none;
+    color: #E9DFD2;                
+    background: #2A2420;           
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.item:hover {
+    transform: scale(1.03);
+    background: #3B322D;          
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
