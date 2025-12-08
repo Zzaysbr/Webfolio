@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Inter", sans-serif;
     background: #1E1A16;           
-    color: #E9DFD2;                
+    color: #E9DFD2;           
 }
 
 ul {
@@ -30,9 +30,14 @@ ul {
     border: 3px solid #6B5C52;
 }
 
-.intro-text h1 {
+.intro-text h1{
     margin: 0;
     font-size: 2.6rem;
+    color: #C49A6C;                
+}
+.intro-text h2{
+    margin: 10;
+    font-size: 1.6rem;
     color: #C49A6C;                
 }
 
