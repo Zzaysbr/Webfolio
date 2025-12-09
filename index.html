@@ -11,9 +11,18 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
+
+    <div class="sidebar-wrapper">
+        <div class="sidebar-toggle">=</div>
+        <div class="sidebar">
+            <a href="#top">หน้าแรก</a>
+            <a href="#projects">โปรเจค</a>
+        </div>
+    </div>
+
     <header class="hero">
-        <img src="assets/Profile.jpeg" alt="Profile" class="profile-pic">
+        <img src="assets/Profile.jpeg" alt="Profile" class="profile-pic float-soft">
         <div class="intro-text">
 
             <h1>Anantasin Saokaew</h1>
@@ -41,7 +50,7 @@
         </ul>
     </div>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>โปรเจค</h2>
         <div class="grid">
             <a href="https://github.com/Zzaysbr/towhu_bot.git" class="item">
@@ -56,5 +65,25 @@
             </a>
         </div>
     </section>
+    <script src="script.js"></script>
+
+    <div class="contact-wrapper">
+        <div class="contact-button">📞</div>
+
+        <div class="contact-menu">
+            <a href="mailto: zzaysbr@gmail.com" class="contact-item">
+                <img src="assets/email_logo.svg" alt="Email">
+                <span>Email</span>
+            </a>
+            <a href="https://github.com/Zzaysbr" target="_blank" class="contact-item">
+                <img src="assets/github_logo.svg" alt="GitHub">
+                <span>GitHub</span>
+            </a>
+            <a href="https://discord.com/users/1318445603390230631" target="_blank" class="contact-item">
+                <img src="assets/discord_logo.svg" alt="Discord">
+                <span>Discord</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
